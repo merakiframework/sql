@@ -1,0 +1,31 @@
+{
+    "name": "meraki/sql",
+    "description": "Package for building generic SQL DDL/DML statements.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathan Bishop",
+            "email": "nbish11@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meraki\\Sql\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Meraki\\Sql\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "meraki/test-suite": "^0.1.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
