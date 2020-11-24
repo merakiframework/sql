@@ -23,6 +23,7 @@ composer.phar
 
 # Build data
 /build/
+index.php
 
 ### SublimeText ###
 # Cache files for Sublime Text
